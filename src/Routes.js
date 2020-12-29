@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router,Route,Switch } from "react-router-dom";
 import Home from './Component/Home';
-import Cart from './Component/Cart'
 import Productitem from './Component/Productitem'
 import Footer from './Component/Footer';
 import Header from './Component/Header';
@@ -15,7 +14,6 @@ function Routes() {
                 <Header />
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route path="/cart" component={Cart} />
                     <Route path="/product/:id" component={Productitem} />
                     <Route path="*" component={()=> <h1>404 Error</h1> } />
                 </Switch>

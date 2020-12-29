@@ -1,3 +1,6 @@
+.img{
+    width: 100%;
+}
 .m-card{
     margin: 2rem 5rem;
 }
@@ -31,7 +34,7 @@
 }
 
 footer{
-    background: #333333;
+    background: black;
     color: white;
     text-align: center;
     padding: 3rem 0;
@@ -50,6 +53,7 @@ footer{
     .pp-card{
         display: flex ;
         flex-direction: column;
+        justify-content: center;
     }
     .p-card{
         margin: 0;
@@ -61,6 +65,9 @@ footer{
     }
     .cart{
         margin: 0 !important;
+    }
+    .img{
+        width: 100%;
     }
     
 }
